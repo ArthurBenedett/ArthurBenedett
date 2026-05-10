@@ -13,3 +13,9 @@ class Skills extends Desenvolvedor {
   bibliotecas = ["React", "Pandas"];
   frameworks = ["Next.js", "Node.js", "Express.js", "Tailwind CSS"];
 }
+
+class Contato extends Desenvolvedor {
+  github = "github.com/ArthurBenedett";
+  linkedin = "linkedin.com/in/arthurbenedetti";
+  email = "arthurbuscarinobenedetti8@gmail.com";
+}
