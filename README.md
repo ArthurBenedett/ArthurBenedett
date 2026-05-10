@@ -1,20 +1,20 @@
 ```js
-import Desenvolvedor from "ArthurBenedett";
+import Developer from "ArthurBenedett";
 
-class SobreMim extends Desenvolvedor {
-  nome = "Arthur Benedetti";
-  area = "Desenvolvedor Full Stack e Ciência de Dados";
-  trabalho = "Em formação no SENAI";
-  local = "São Paulo, Brasil";
+class AboutMe extends Developer {
+  name = "Arthur Benedetti";
+  field = "Full Stack Developer and Data Science";
+  work = "Currently studying at SENAI";
+  location = "São Paulo, Brazil";
 }
 
-class Skills extends Desenvolvedor {
-  linguagens = ["Python", "JavaScript", "SQL", "PHP"];
-  bibliotecas = ["React", "Pandas"];
+class Skills extends Developer {
+  languages = ["Python", "JavaScript", "SQL", "PHP"];
+  libraries = ["React", "Pandas"];
   frameworks = ["Next.js", "Node.js", "Express.js", "Tailwind CSS"];
 }
 
-class Contato extends Desenvolvedor {
+class Contact extends Developer {
   github = "github.com/ArthurBenedett";
   linkedin = "linkedin.com/in/arthurbenedetti";
   email = "arthurbuscarinobenedetti8@gmail.com";
